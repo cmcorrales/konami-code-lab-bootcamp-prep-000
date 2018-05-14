@@ -17,13 +17,13 @@ function init() {
   let keyPressed = parseInt(e.key);  
   if (keyPressed == codes[i]) {
     i++;
-  }
- else {
-  i = 0;
- }
-  if (i == codes.length) {
-      window.alert("WOO KONAMI CODE");
+    if (i == codes.length) {
+      window.alert("Hurray!");
       i=0;
+    }
+  }
+   else {
+    i = 0;
   }
   });
 }

@@ -17,7 +17,7 @@ function init() {
   let keyPressed = parseInt(e.key);  
   if (keyPressed === codes[i]) {
     i++;
-    if (i === codes.length) {
+    if (i === codes.length-1) {
       alert("Hurray!");
       i=0;
     }

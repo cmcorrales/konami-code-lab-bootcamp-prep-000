@@ -18,9 +18,9 @@ function init() {
   if (keyPressed == codes[i]) {
     i++;
   }
-  else {
-    i = 0;
-  }
+ else {
+  i = 0;
+ }
   if (i == codes.length) {
       window.alert("WOO KONAMI CODE");
       i=0;

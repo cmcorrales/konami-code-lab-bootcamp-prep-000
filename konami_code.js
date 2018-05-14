@@ -23,7 +23,7 @@ function init() {
         i = 0;
       }
   if (i == codes.length) {
-      alert("WOO KONAMI CODE");
+      window.alert("WOO KONAMI CODE");
       i=0;
   }
   });

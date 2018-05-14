@@ -14,8 +14,8 @@ const codes = [
 function init() {
   let i = 0;
   document.body.addEventListener('keydown', function(e) {
-  let keyPressed = e.key;  
-      if (keyPressed.toString() == codes[i]) {
+  let keyPressed = parseInt(e.key);  
+      if (keyPressed == codes[i]) {
         i++;
       }
       else {

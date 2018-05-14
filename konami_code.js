@@ -18,7 +18,7 @@ function init() {
   if (keyPressed === codes[i]) {
     i++;
     if (i === codes.length) {
-      window.alert("Hurray!");
+      alert("Hurray!");
       i=0;
     }
   }

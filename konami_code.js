@@ -26,7 +26,7 @@ function init() {
       alert("WOO KONAMI CODE");
       i=0;
   }
-  }, false);
+  });
 }
 
 init();

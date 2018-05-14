@@ -12,9 +12,8 @@ const codes = [
 ];
 
 function init() {
-  let body = document.querySelector("body")
   let i = 0;
-  body.addEventListener('keydown', function(e) {
+  document.body.addEventListener('keydown', function(e) {
   let keyPressed = e.key;  
       if (keyPressed.toString() == codes[i]) {
         i++;

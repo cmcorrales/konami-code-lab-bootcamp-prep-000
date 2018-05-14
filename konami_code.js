@@ -17,7 +17,7 @@ function init() {
   body.addEventListener('keydown', function(e) {
   let keyPressed = e.key;  
       if (keyPressed.toString() == codes[i]) {
-        i++;
+        ++i;
       }
       else {
         i = 0;
